@@ -1,0 +1,53 @@
+{
+    "name": "saintxak/yii2-tagify",
+    "description": "Tagify widget for yii2",
+    "type": "yii2-extension",
+    "license": "MIT License",
+    "keywords": [
+        "yii2-tagify",
+        "yii2",
+        "yii2-extension",
+        "tagify",
+        "dropdown-list"
+    ],
+    "support": {
+        "issues": "https://github.com/saintxak/yii2-tagify/issues?state=open",
+        "source": "https://github.com/saintxak/yii2-tagify"
+    },
+    "authors": [
+        {
+            "name": "saintxak",
+            "email": "viktor.bryntsev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "saintxak\\tagify\\": ""
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "npm-asset/@yaireo/tagify": "2.10.1"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "2.10.1",
+                "name": "@yaireo/tagify",
+                "source": {
+                    "url": "https://github.com/yairEO/tagify",
+                    "type": "git",
+                    "reference": "2.10.1"
+                }
+            }
+        }
+    ],
+
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
