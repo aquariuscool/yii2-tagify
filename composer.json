@@ -2,7 +2,7 @@
     "name": "saintxak/yii2-tagify",
     "description": "Tagify widget for yii2",
     "type": "yii2-extension",
-    "license": "MIT License",
+    "license": "MIT",
     "keywords": [
         "yii2-tagify",
         "yii2",
