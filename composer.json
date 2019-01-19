@@ -27,22 +27,8 @@
     },
     "require": {
         "yiisoft/yii2": "~2.0",
-        "npm-asset/@yaireo/tagify": "2.10.1"
+        "npm-asset/yaireo--tagify": "2.10.1"
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "version": "2.10.1",
-                "name": "@yaireo/tagify",
-                "source": {
-                    "url": "https://github.com/yairEO/tagify",
-                    "type": "git",
-                    "reference": "2.10.1"
-                }
-            }
-        }
-    ],
 
     "extra": {
         "asset-installer-paths": {
