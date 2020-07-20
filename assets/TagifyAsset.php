@@ -10,6 +10,7 @@ class TagifyAsset extends AssetBundle
         'tagify.css',
     ];
     public $js = [
+        'tagify.min.js',
         'jQuery.tagify.min.js',
     ];
     public $depends = [
