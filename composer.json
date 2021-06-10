@@ -27,7 +27,7 @@
     },
     "require": {
         "yiisoft/yii2": "~2.0",
-        "npm-asset/yaireo--tagify": "3.15.4"
+        "npm-asset/yaireo--tagify": "4.2.0"
     },
 
     "extra": {
